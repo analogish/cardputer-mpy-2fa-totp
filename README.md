@@ -1,8 +1,11 @@
-# Raspberry Pi Pico/MicroPython 2FA TOTP Generator
+# MicroPython 2FA TOTP Generator for the M5Stack Cardputer (ST7789)
 
-Generates Time-based One-Time Password's (TOTP) using MicroPython, Raspberry Pi Pico W and the [Waveshare Pico-Oled-1.3](https://www.waveshare.com/product/pico-oled-1.3.htm).
+WORK IN PROGRESS, current status: not functional (Aug 11th 2024). just started ;)
 
-<img src="example.gif" />
+GOALS:
+Generates Time-based One-Time Password's (TOTP) using MicroPython, M5Stack Carputer and the builtin ST7789 Display with 13x240 Pixels
+
+<img src="" />
 
 ## Features
 
@@ -100,6 +103,6 @@ Requirements:
 
 ## Acknowledgements
 
-Forked from [Kleo's](https://github.com/kleo) [fork](https://github.com/kleo/pico-2fa-totp) of the [pico-2fa-totp](https://github.com/eddmann/pico-2fa-totp) created by [Edd Mann](https://github.com/eddmann).
+Forked from samveen URL that forked from [Kleo's](https://github.com/kleo) [fork](https://github.com/kleo/pico-2fa-totp) of the [pico-2fa-totp](https://github.com/eddmann/pico-2fa-totp) created by [Edd Mann](https://github.com/eddmann).
 
-Pico-oled-1.3 driver by [Waveshare](https://www.waveshare.com/wiki/Pico-OLED-1.3#Examples) updated with [nicer fonts](https://github.com/markwinap/Pycom-SH1107-I2C/blob/master/lib/SH1107.py).
+##License
